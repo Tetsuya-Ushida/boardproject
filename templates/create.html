@@ -11,6 +11,6 @@
 <input type="submit" value="作成する">
 </form>
 {% else %}
-ログインしてください
+<a href="{% url 'login' %}">ログインしてください</a>
 {% endif %}
 {% endblock content %}
